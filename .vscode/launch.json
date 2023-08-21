@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--dataset", "opener_en", "--do_predict", "True"]
+            // "args": ["--dataset", "opener_en" , "--plm_model_name", "roberta-large" , "--seed", "1" , "--batch_size", "2" ,
+            // "--nhops", "3" ,"--learning_rate", "3e-6",  "--disable_progress_bar", "True", "--epochs", "100"]
+        }
+    ]
+}
